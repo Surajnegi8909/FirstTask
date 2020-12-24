@@ -1,0 +1,94 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 272px;
+  height: 92px;
+  padding-top: 150px;
+  padding-bottom: 30px;
+  filter: grayscale(100);
+}
+a {
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+a:hover {
+  text-decoration: underline;
+}
+.fas {
+  font-size: 1em;
+}
+
+.fa-th:hover {
+  border: 5px solid slategray;
+  border-radius: 10px;
+}
+#input-container {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: 45px;
+  width: 600px;
+  border-radius: 50px;
+  background-color: white;
+}
+
+#input-container > img {
+  position: absolute;
+}
+
+#input-container > input {
+  width: 500px;
+  height: 45px;
+  font-size: large;
+  border: none;
+  border-width: 0;
+  box-shadow: none;
+}
+input:focus {
+  outline: none !important;
+}
+.tablename {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 590px;
+  height: 224px;
+}
+.maincon {
+  height: 112px;
+  width: 112px;
+  margin: 2px;
+  border-radius: 10px;
+}
+.maincon:hover {
+  background-color: rgb(58, 65, 71);
+}
+.clsimg {
+  display: block;
+  margin-left: auto;
+  margin-top: 20px;
+  background-color: rgb(31, 30, 30);
+  border-radius: 25px;
+  width: 48px;
+  height: 48px;
+  margin-right: auto;
+}
+
+.imgb {
+  display: block;
+  height: 24px;
+  width: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+}
+.bookname {
+  align-items: center;
+  font-size: 13px;
+  top: 50%;
+  left: 50%;
+  color: white;
+}
